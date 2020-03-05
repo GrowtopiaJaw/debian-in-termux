@@ -5,7 +5,7 @@ time1="$( date +"%r" )"
 
 install1 () {
 directory=debian-fs
-DEBIAN_VERSION=19.10
+DEBIAN_VERSION=11
 if [ -d "$directory" ];then
 first=1
 printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;227m[WARNING]:\e[0m \x1b[38;5;87m Skipping the download and the extraction\n"
